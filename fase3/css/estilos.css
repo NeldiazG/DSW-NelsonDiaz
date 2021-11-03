@@ -1,0 +1,21 @@
+header{
+    background-color: aqua;
+}
+nav{
+    background-color: burlywood;
+}
+section{
+    background-color: coral;
+    grid-column:1/4 ;
+}
+aside{
+    background-color: darksalmon;
+    grid-column:4/5 ;
+}
+footer{
+    background-color: gray;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
